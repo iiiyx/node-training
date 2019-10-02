@@ -1,0 +1,19 @@
+{
+  "name": "node-project-training",
+  "version": "1.0.0",
+  "description": "The project for accomplishing NodeJS training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "author": "= <=>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "nodemon": "^1.19.3"
+  }
+}
